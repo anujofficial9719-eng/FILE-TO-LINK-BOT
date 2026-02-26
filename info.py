@@ -2,22 +2,22 @@ from os import environ, getenv
 from Script import script
 
 # 🚀 __Bot Configuration__
-SESSION = environ.get('SESSION', 'RexBots')  # Session name
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+SESSION = environ.get('SESSION', 'Anujedit')  # Session name
+API_ID = int(environ.get('API_ID', '34724970'))
+API_HASH = environ.get('API_HASH', 'f240eae7c60e8e30c17203ab0e052f7e')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8613755565:AAGiJMEkCddTHntpLBY01Pe7iZZMtGvHEbA')
 
 # 👑 __Owner & Admins__
-ADMINS = [int(i) for i in environ.get('ADMINS', '').split()]
-AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "").split()]
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'CantarellaBots')
-BOT_USERNAME = environ.get("BOT_USERNAME", 'CantarellaBots')
+ADMINS = [int(i) for i in environ.get('ADMINS', '7521421400').split()]
+AUTH_CHANNEL = [int(i) for i in environ.get("AUTH_CHANNEL", "-1003616967390").split()]
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'arafta_hindi_dubbed_webseries')
+BOT_USERNAME = environ.get("BOT_USERNAME", 'arafta_hindi_dubbed_webseries')
 
 # 🔗 __Channel & Support Links__
-CHANNEL = environ.get('CHANNEL', 'https://t.me/cantarellabots')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/cantarellabots')
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/cantarellabots')
-HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/cantarellabots')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/arafta_hindi_dubbed_webseries')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/arafta_hindi_dubbed_webseries')
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/arafta_hindi_dubbed_webseries')
+HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/arafta_hindi_dubbed_webseries')
 
 # 📢 __Log Channels__
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
@@ -42,11 +42,11 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
 
 # 💾 __Database Configuration__
-DB_URL = environ.get('DATABASE_URI', "")
-DB_NAME = environ.get('DATABASE_NAME', "rexlinkbot")
+DB_URL = environ.get('DATABASE_URI', "mongodb+srv://Anujedit:Anujedit@cluster0.7cs2nhd.mongodb.net/?appName=Cluster0")
+DB_NAME = environ.get('DATABASE_NAME', "Anujedit")
 
 # 📸 __Media & Images__
-QR_CODE = environ.get('QR_CODE', 'https://ibb.co/mVkSySr7')
+QR_CODE = environ.get('QR_CODE', 'https://i.ibb.co/VWZ0RPxX/x.jpg')
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://ibb.co/mVkSySr7")
 AUTH_PICS = environ.get('AUTH_PICS', 'https://ibb.co/mVkSySr7')
 PICS = environ.get('PICS', 'https://ibb.co/mVkSySr7')
@@ -67,7 +67,7 @@ VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 60))  # Hours
 # ⚙️ __Worker & App Config__
 WORKERS = int(environ.get('WORKERS', 10))
 MULTI_CLIENT = False
-NAME = environ.get('name', 'CantarellaBots')
+NAME = environ.get('name', 'Anujedits')
 
 # 🌐 __Web Server__
 ON_HEROKU = 'DYNO' in environ
